@@ -4,13 +4,15 @@ public class Sudent {
 
   int studentId;
   String studentName;
+  String batch;
 
   public Sudent() {
   }
 
-  public Sudent(int studentId, String studentName) {
+  public Sudent(int studentId, String studentName, String batch) {
     this.studentId = studentId;
     this.studentName = studentName;
+    this.batch = batch;
   }
 
   public int getStudentId() {
@@ -27,6 +29,14 @@ public class Sudent {
 
   public void setStudentName(String studentName) {
     this.studentName = studentName;
+  }
+
+  public String getBatch() {
+    return batch;
+  }
+
+  public void setBatch(String batch) {
+    this.batch = batch;
   }
 
 }
