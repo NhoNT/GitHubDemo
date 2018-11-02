@@ -31,12 +31,4 @@ public class Sudent {
     this.studentName = studentName;
   }
 
-  public String getBatch() {
-    return batch;
-  }
-
-  public void setBatch(String batch) {
-    this.batch = batch;
-  }
-
 }
